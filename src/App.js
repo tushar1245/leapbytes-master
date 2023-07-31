@@ -10,6 +10,7 @@ import TechStack from './components/techstack.jsx';
 import ContactUs from './components/contact.jsx';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import Footer from './components/footer.jsx';
+import WhatsAppButton from './components/whatsapp.jsx';
 
 
 
@@ -83,6 +84,7 @@ function App() {
         <Separator text = "Contact Us" />
       </div>
       <ContactUs />
+      <WhatsAppButton />
       <Footer />
     </div>
       
