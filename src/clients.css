@@ -1,0 +1,28 @@
+.moving-container {
+    height: 100px; 
+    color: #ffffff; 
+    overflow: hidden;
+  }
+  
+  .moving-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap; /* Prevent the company names from wrapping to new lines */
+  }
+  
+  .moving-list li {
+    display: inline-block;
+    padding-right: 3rem; /* Adjust the spacing between companies */
+    animation: moveLeft 10s linear infinite; /* Adjust the animation duration and timing function */
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
